@@ -1,15 +1,15 @@
 import streamlit as st
 
-# $B%F%-%9%H(B($B%^!<%/%@%&%s$G=q$1$^$9!#(B)
+# テキスト(マークダウンで書けます。)
 st.write("# title")
 
-# $BCm<a(B
-st.caption("$BCm<a(B")
+# 注釈
+st.caption("注釈")
 
-# $B2hA|(B
+# 画像
 st.image("https://ul.h3z.jp/tbfgZLSX.webp")
 
-# $B%F!<%V%k(B
+# テーブル
 import pandas as pd
 df = pd.DataFrame(
         {
@@ -19,5 +19,5 @@ df = pd.DataFrame(
     )
 st.write(df)
 
-# $B%A%c!<%H(B
+# チャート
 st.line_chart(df)
