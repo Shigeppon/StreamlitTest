@@ -2,17 +2,22 @@
 
 ## 準備
 - 仮想環境作成
+venv(第２引数)というvenvを作成する
 ```
-python3 -m venv ~/mypy
+python3 -m venv venv
 ```
 - 切り替え
 ```
-source ~/mypy/bin/activate
+source venv/bin/activate
 ```
 
 ## パッケージインストール
 ```
 pip install パッケージ名
+```
+requirement.txtからインストールする場合
+```
+pip install -r requirement.txt
 ```
 
 ## run
