@@ -2,13 +2,13 @@
 
 ## 準備
 - 仮想環境作成
-venv(第２引数)というvenvを作成する
+.venv(第２引数)というvenvを作成する
 ```
-python3 -m venv venv
+python3 -m venv .venv
 ```
 - 切り替え
 ```
-source venv/bin/activate
+source .venv/bin/activate
 ```
 
 ## パッケージインストール
